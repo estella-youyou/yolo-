@@ -1,0 +1,9 @@
+path: ./mini_dataset
+train: images/train
+val: images/val
+
+nc: 3
+name:
+    0: object1
+    1: object2
+    2: object3
