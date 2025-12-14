@@ -40,7 +40,7 @@ class YOLOv8CompleteOutput:
 if __name__ == "__main__":
     detector = YOLOv8CompleteOutput('yolov8n.pt')
 
-    image_path = "3.1.jpg"
+    image_path = r"task1\task1.jpg"
     results = detector.detect(image_path)
     
     if results:
